@@ -1,0 +1,12 @@
+{
+  "targets": {
+    "release": {
+      "outFile": "build/ping-as.wasm",
+      "textFile": "build/ping-as.wat",
+      "optimizeLevel": 3,
+      "shrinkLevel": 0,
+      "noAssert": false,
+      "runtime": "stub"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "ping-as",
+  "type": "module",
+  "scripts": {
+    "asbuild": "asc assembly/index.ts --target release"
+  },
+  "dependencies": {
+    "@kosmos-suite/plugin-sdk-assemblyscript": "^0.1.0"
+  },
+  "devDependencies": {
+    "assemblyscript": "^0.28.20"
+  }
+}
